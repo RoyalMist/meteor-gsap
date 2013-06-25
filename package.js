@@ -3,26 +3,25 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-    var path = Npm.require('path');
-    
-    api.add_files(path.join('src/easing', 'EasePack.min.js'), 'client');
 
-    api.add_files(path.join('src/plugins', 'AttrPlugin.min.js'), 'client');
-    api.add_files(path.join('src/plugins', 'BezierPlugin.min.js'), 'client');
-    api.add_files(path.join('src/plugins', 'ColorPropsPlugin.min.js'), 'client');
-    api.add_files(path.join('src/plugins', 'CSSPlugin.min.js'), 'client');
-    api.add_files(path.join('src/plugins', 'ACSSRulePlugin.min.js'), 'client');
-    api.add_files(path.join('src/plugins', 'ADirectionalRotationPlugin.min.js'), 'client');
-    api.add_files(path.join('src/plugins', 'EaselPlugin.min.js'), 'client');
-    api.add_files(path.join('src/plugins', 'KineticPlugin.min.js'), 'client');
-    api.add_files(path.join('src/plugins', 'RaphaelPlugin.min.js'), 'client');
-    api.add_files(path.join('src/plugins', 'RoundPropsPlugin.min.js'), 'client');
-    api.add_files(path.join('src/plugins', 'ScrollToPlugin.min.js'), 'client');
-    api.add_files(path.join('src/plugins', 'TextPlugin.min.js'), 'client');
-
-    api.add_files(path.join('src', 'jquery.gsap.min.js'), 'client');
-    api.add_files(path.join('src', 'TimelineLite.min.js'), 'client');
-    api.add_files(path.join('src', 'TimelineMax.min'), 'client');
-    api.add_files(path.join('src', 'TweenLite.min.js'), 'client');
-    api.add_files(path.join('src', 'TweenMax.min.js'), 'client');
-});
+    api.add_files([
+        'src/easing/EasePack.min.js',
+        'src/plugins/AttrPlugin.min.js',
+        'src/plugins/BezierPlugin.min.js',
+        'src/plugins/ColorPropsPlugin.min.js',
+        'src/plugins/CSSPlugin.min.js',
+        'src/plugins/ACSSRulePlugin.min.js',
+        'src/plugins/ADirectionalRotationPlugin.min.js',
+        'src/plugins/EaselPlugin.min.js',
+        'src/plugins/KineticPlugin.min.js',
+        'src/plugins/RaphaelPlugin.min.js',
+        'src/plugins/RoundPropsPlugin.min.js',
+        'src/plugins/ScrollToPlugin.min.js',
+        'src/plugins/TextPlugin.min.js',
+        'src/jquery.gsap.min.js',
+        'src/TimelineLite.min.js',
+        'src/TimelineMax.min.js',
+        'src/TweenLite.min.js',
+        'src/TweenMax.min.js'
+        ], 'client'
+    );
