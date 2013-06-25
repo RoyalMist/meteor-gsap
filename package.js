@@ -25,4 +25,4 @@ Package.on_use(function (api) {
         'src/TweenMax.min.js'
         ], 'client'
     );
-}
+});
