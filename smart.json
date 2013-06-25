@@ -3,6 +3,6 @@
     "description": "GreenSock Animation Platform : Professional-Grade HTML5 Animation.",
     "homepage": "https://github.com/RoyalMist/meteor-gsap",
     "author": "PrisM",
-    "version": "1.9.8-a",
+    "version": "1.9.8rc1",
     "git": "https://github.com/RoyalMist/meteor-gsap.git"
 }
