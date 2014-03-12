@@ -5,24 +5,24 @@ Package.describe({
 Package.on_use(function (api) {
 
     api.add_files([
-        'src/easing/EasePack.min.js',
-        'src/plugins/AttrPlugin.min.js',
-        'src/plugins/BezierPlugin.min.js',
-        'src/plugins/ColorPropsPlugin.min.js',
-        'src/plugins/CSSPlugin.min.js',
-        'src/plugins/CSSRulePlugin.min.js',
-        'src/plugins/DirectionalRotationPlugin.min.js',
-        'src/plugins/EaselPlugin.min.js',
-        'src/plugins/KineticPlugin.min.js',
-        'src/plugins/RaphaelPlugin.min.js',
-        'src/plugins/RoundPropsPlugin.min.js',
-        'src/plugins/ScrollToPlugin.min.js',
-        'src/plugins/TextPlugin.min.js',
-        'src/jquery.gsap.min.js',
-        'src/TimelineLite.min.js',
-        'src/TimelineMax.min.js',
-        'src/TweenLite.min.js',
-        'src/TweenMax.min.js'
+        'vendor/GreenSock-JS/src/uncompressed/easing/EasePack.js',
+        'vendor/GreenSock-JS/src/uncompressed/plugins/AttrPlugin.js',
+        'vendor/GreenSock-JS/src/uncompressed/plugins/BezierPlugin.js',
+        'vendor/GreenSock-JS/src/uncompressed/plugins/ColorPropsPlugin.js',
+        'vendor/GreenSock-JS/src/uncompressed/plugins/CSSPlugin.js',
+        'vendor/GreenSock-JS/src/uncompressed/plugins/CSSRulePlugin.js',
+        'vendor/GreenSock-JS/src/uncompressed/plugins/DirectionalRotationPlugin.js',
+        'vendor/GreenSock-JS/src/uncompressed/plugins/EaselPlugin.js',
+        'vendor/GreenSock-JS/src/uncompressed/plugins/KineticPlugin.js',
+        'vendor/GreenSock-JS/src/uncompressed/plugins/RaphaelPlugin.js',
+        'vendor/GreenSock-JS/src/uncompressed/plugins/RoundPropsPlugin.js',
+        'vendor/GreenSock-JS/src/uncompressed/plugins/ScrollToPlugin.js',
+        'vendor/GreenSock-JS/src/uncompressed/plugins/TextPlugin.js',
+        'vendor/GreenSock-JS/src/uncompressed/jquery.gsap.js',
+        'vendor/GreenSock-JS/src/uncompressed/TimelineLite.js',
+        'vendor/GreenSock-JS/src/uncompressed/TimelineMax.js',
+        'vendor/GreenSock-JS/src/uncompressed/TweenLite.js',
+        'vendor/GreenSock-JS/src/uncompressed/TweenMax.js'
         ], 'client'
     );
 });
