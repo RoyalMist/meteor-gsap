@@ -1,3 +1,3 @@
 [submodule "vendor/GreenSock-JS"]
 	path = vendor/GreenSock-JS
-	url = git@github.com:greensock/GreenSock-JS.git
+	url = https://github.com/greensock/GreenSock-JS.git
