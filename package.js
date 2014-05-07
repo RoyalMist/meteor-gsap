@@ -13,6 +13,7 @@ Package.on_use(function (api) {
         'vendor/GreenSock-JS/src/uncompressed/plugins/CSSRulePlugin.js',
         'vendor/GreenSock-JS/src/uncompressed/plugins/DirectionalRotationPlugin.js',
         'vendor/GreenSock-JS/src/uncompressed/plugins/EaselPlugin.js',
+        'vendor/GreenSock-JS/src/uncompressed/plugins/EndArrayPlugin.js',
         'vendor/GreenSock-JS/src/uncompressed/plugins/KineticPlugin.js',
         'vendor/GreenSock-JS/src/uncompressed/plugins/RaphaelPlugin.js',
         'vendor/GreenSock-JS/src/uncompressed/plugins/RoundPropsPlugin.js',
@@ -22,7 +23,8 @@ Package.on_use(function (api) {
         'vendor/GreenSock-JS/src/uncompressed/TimelineLite.js',
         'vendor/GreenSock-JS/src/uncompressed/TimelineMax.js',
         'vendor/GreenSock-JS/src/uncompressed/TweenLite.js',
-        'vendor/GreenSock-JS/src/uncompressed/TweenMax.js'
+        'vendor/GreenSock-JS/src/uncompressed/TweenMax.js',
+        'vendor/GreenSock-JS/src/uncompressed/utils/Draggable.js'
         ], 'client'
     );
 });
