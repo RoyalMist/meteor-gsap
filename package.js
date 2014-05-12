@@ -25,6 +25,6 @@ Package.on_use(function (api) {
         'vendor/GreenSock-JS/src/uncompressed/TweenLite.js',
         'vendor/GreenSock-JS/src/uncompressed/TweenMax.js',
         'vendor/GreenSock-JS/src/uncompressed/utils/Draggable.js'
-        ], 'client'
+        ], ['client', 'server']
     );
 });
